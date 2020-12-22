@@ -7,6 +7,6 @@ export const getCurrency = createSelector(
 
 export const getExchangeRates = createSelector(
     (state, currency) =>
-        state.currency.currency.filter(item => item.ccy === currency)[0].buy,
+        state.currency.currency.filter(item => item.ccy === currency)[0],
     exchangeRates => exchangeRates
 )

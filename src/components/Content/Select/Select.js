@@ -13,7 +13,6 @@ const Select = () => {
 
     const handleSelected = e => dispatch(changeCurrency(e.target.value))
 
-    console.log(initialCurrency)
     return (
         <div>
             <select
