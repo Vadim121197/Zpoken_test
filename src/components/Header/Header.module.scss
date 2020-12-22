@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 960px;
+
+    background-color: rgb(139, 168, 168);
+    margin: -20px auto 0 auto;
+    height: 10vh;
+}
+
+.imageContainer {
+    margin-left: 20px;
+}
+
+.image {
+    max-width: 100vh;
+    height: 20vh;
+}
+
+.mainNav {
+    margin-right: 20px;
+}
+
+.link {
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    font-size: 30px;
+}
